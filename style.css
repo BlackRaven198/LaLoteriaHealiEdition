@@ -1,5 +1,7 @@
 
-
+body {
+    background-color:#e5e4e4;
+}
 
 .game-board {
     display: grid;
@@ -23,28 +25,58 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* .green-outline {
+    display: grid;
+    background-color: firebrick;
+    position: relative;
+    max-width: 1000px;
+    height: 1000px; */
+ 
+/* } */
+.card {
+    background-color:#1c6459;
+    display: grid;
+    position: relative;
+    max-width: 600px;
+
+
+}
 
 
 .container {
+    position: relative;
     display: grid;
     grid-template-rows: 150px 150px 150px 150px;
     grid-template-columns: 100px 100px 100px 100px;
-    margin: 50px;
+    margin: 20px auto;
     padding: 10px;
+    /* padding: auto; */
+    text-align: center;
+    /* background: dodgerblue; */
     /* width: 50%; */
     /* margin: 20px auto; */
-    background: dodgerblue;
+   
     /* padding: 10px; */
     /* border-radius: 10px; */
     /* text-align: center;
     color: white; */
 }
-/* .btn {
-    margin: 10px;
-   margin-left: 400px;
-} */
+
 
 #random-card-btn {
+    border: none;
     padding: 10px;
     margin-bottom: 25px;
+    color:white;
+    background-color: #204f46;
+    margin-left: 210px;
+    padding: 20px;
 }
+#random-card-btn:hover{
+    cursor: pointer;
+}
+
+img {
+    border: 2px solid black;
+    background-color:white;
+  }
